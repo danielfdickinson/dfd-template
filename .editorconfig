@@ -1,0 +1,31 @@
+# https://editorconfig.org/ for details
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = tab
+indent_size = 4
+indent_style = tab
+insert_final_newline = true
+tab_width = 3
+trim_trailing_whitespace = true
+
+[*.{yml,yaml}]
+indent_size = 2
+indent_style = space
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.svg]
+insert_final_newline = false
+trim_trailing_whitespace = false
+
+# Ignore "third party" directories
+[third_party/**]
+ignore = true
+[vendor/**]
+ignore = true
+[_vendor/**]
+ignore = true

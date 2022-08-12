@@ -1,0 +1,22 @@
+# Mostly copied from https://github.com/davidsneighbour/kollitsch.dev/blob/main/tests/config/typos.toml
+[default]
+check-filename = true
+check-file = true
+unicode = false
+locale = "en-gb"
+
+[default.extend-identifiers]
+eq = "eq"
+monetization = "monetization"
+idea = "idea"
+
+[files]
+extend-exclude = [
+	"package-lock.json",
+	"CHANGELOG.md",
+	"go.sum",
+	".git",
+	".gitignore",
+]
+ignore-hidden = false
+ignore-vcs = true
