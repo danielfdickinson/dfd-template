@@ -1,7 +1,7 @@
 # See https://pre-commit.com for more information
 # See https://pre-commit.com/hooks.html for more hooks
 # yamllint disable rule:line-length
-# Mostly copied from https://github.com/davidsneighbour/kollitsch.dev/blob/main/.pre-commit-config.yaml
+# Initially copied from https://github.com/davidsneighbour/kollitsch.dev/blob/main/.pre-commit-config.yaml
 # yamllint enable
 ci:
   autofix_prs: false
@@ -53,8 +53,8 @@ repos:
       - id: mixed-line-ending
         # replaces or checks mixed line ending.
         args: [--fix=no]
-      # - id: no-commit-to-branch # - don"t commit to branch
-      #   args: [--branch, main, --branch, "v0.[0-9]"]
+      - id: no-commit-to-branch # - don't commit to branch
+        args: [--branch, main, --branch, "v0.[0-9]"]
       - id: pretty-format-json
         # - Checks that all your JSON files are pretty. "Pretty"
         # here means that keys are sorted and indented.
@@ -104,10 +104,10 @@ repos:
     hooks:
       - id: gitleaks
 
-  # - repo: "https://github.com/jorisroovers/gitlint"
-  #   rev: v0.17.0
-  #   hooks:
-  #     - id: gitlint
+  - repo: "https://github.com/jorisroovers/gitlint"
+    rev: v0.17.0
+    hooks:
+      - id: gitlint
 
   - repo: "https://github.com/editorconfig-checker/editorconfig-checker.python"
     rev: "2.4.0"
