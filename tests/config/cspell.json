@@ -25,7 +25,8 @@
 	],
 	"ignorePaths": [
 		"node_modules",
-		"/*-words.txt"
+		"tests/config/words-*.txt",
+		"tests-config/dfd-wordlsts"
 	],
 	"ignoreWords": [],
 	"version": "0.2"
