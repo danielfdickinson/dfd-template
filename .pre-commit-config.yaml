@@ -49,7 +49,7 @@ repos:
         args: ["--unique"]
       - id: fix-byte-order-marker
       # - removes utf-8 byte order marker
-      # - id: forbid-new-submodules
+      - id: forbid-new-submodules
       # - prevents addition of new git submodules.
       - id: mixed-line-ending
         # replaces or checks mixed line ending.
