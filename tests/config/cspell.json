@@ -15,12 +15,12 @@
 		{
 			"addWords": true,
 			"name": "tech-words",
-			"path": "https://raw.githubusercontent.com/danielfdickinson/dfd-wordlists/main/words-tech.txt"
+			"path": "./dfd-wordlists/words-tech.txt"
 		},
 		{
 			"addWords": true,
 			"name": "dfd-words",
-			"path": "https://raw.githubusercontent.com/danielfdickinson/dfd-wordlists/main/words-dfd.txt"
+			"path": "./dfd-wordlists/words-dfd.txt"
 		}
 	],
 	"ignorePaths": [

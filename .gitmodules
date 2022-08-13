@@ -1,0 +1,3 @@
+[submodule "dfd-wordlists"]
+	path = tests/config/dfd-wordlists
+	url = https://github.com/danielfdickinson/dfd-wordlists
