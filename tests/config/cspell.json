@@ -10,7 +10,7 @@
 		{
 			"addWords": true,
 			"name": "project-words",
-			"path": "../../words-project.txt"
+			"path": "./words-project.txt"
 		},
 		{
 			"addWords": true,
