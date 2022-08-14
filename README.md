@@ -119,4 +119,15 @@ this repository are licensed under an MIT license.
 See [LICENSE-CODE-AND-CONFIGS](LICENSE-CODE-AND-CONFIGS) in this repository for
 that license.
 
+In particular where configs are noted to be from
+<https://github.com/davidsneighbour/kollitsch.dev> are copyright by both him
+and myself (I've modified them) and are licensed under the MIT license (above).
+
+### Acknowledgements
+
+Thank you to @davidsneighbor for introducing me to
+[pre-commit](https://pre-commit.com).
+
+-------
+
 [tabaccess]: https://www.brycewray.com/posts/2022/06/accessibility-argument-tabs-spaces/
