@@ -1,20 +1,26 @@
 # https://editorconfig.org/ for details
-root = true
 
+# Users should set their preferred tab_width in their personal .editorconfig
+# otherwise it defeats the purpose of using tabs (choice of tab size appearance)
+# and in fact can matter for accessibility.
+root = false
+
+# defaults
 [*]
 charset = utf-8
 end_of_line = lf
-indent_style = tab
 indent_size = 4
 indent_style = tab
 insert_final_newline = true
-tab_width = 3
 trim_trailing_whitespace = true
 
+# YAML (requires spaces not tabs)
 [*.{yml,yaml}]
 indent_size = 2
 indent_style = space
 
+# Make sure we don't trim hard line breaks
+# Using pre-commit we can clean out unwanted trailing whitespace
 [*.md]
 trim_trailing_whitespace = false
 
@@ -22,10 +28,15 @@ trim_trailing_whitespace = false
 insert_final_newline = false
 trim_trailing_whitespace = false
 
+# Ignore problematic file types
+[*.txt]
+ignore = true
+
+# For .sh files specific overrides may be necessary when using HEREDOCS or
+# the like
+# [{path/to/bad/*.sh,path/to/badcommand}]
+# ignore = true
+
 # Ignore "third party" directories
-[third_party/**]
-ignore = true
-[vendor/**]
-ignore = true
-[_vendor/**]
+[{third_party,vendor,_vendor,node_modules}/**]
 ignore = true
