@@ -54,8 +54,8 @@ expressions (python3 regex).
 	* Remove a UTF-8 byte order marker
 	* Prevent addition of new git submodules
 	* Check for mixed line endings (e.g. Window & Linux styles in the same file)
-	* Prevent committing dto specified branches
-	* main or v0.x...
+	* Prevent committing to specified branches
+		* main or v0.x...
 	* Ensure JSON files are sorted and indented with tabs (you can change that if
 	you wish)
 	* Prevent trailing whitespace except Markdown hard line breaks (in '.md'
