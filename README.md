@@ -37,19 +37,19 @@ expressions (python3 regex).
 	* Ensure TOML files load without error (in Python)
 	* Ensure references to files in remote repositories are permalinks (e.g.
 	references to a file in a repo on GitHub).
-	* Ensure XML files load with error (in Python)
+	* Ensure XML files load without error (in Python)
 	* Prevent commit with symlinks changed to files with the content to which it
 	was pointing
 	* Detects committing many types of private keys
-	* Sort specified files alphabetically if they are not already such (will fail
-	the commit if a change is made).
+	* Sort specified files alphabetically if they are not already such (will
+	fail the commit if a change is made).
 	* Remove a UTF-8 byte order marker
 	* Prevent addition of new git submodules
 	* Check for mixed line endings (e.g. Window & Linux styles in the same file)
 	* Prevent committing to specified branches
 		* main or v0.x...
-	* Ensure JSON files are sorted and indented with tabs (you can change that if
-	you wish)
+	* Ensure JSON files are sorted and indented with tabs (you can change that
+	if you wish)
 	* Prevent trailing whitespace except Markdown hard line breaks (in '.md'
 	files)
 	* Lints CSS
