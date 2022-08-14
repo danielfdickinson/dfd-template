@@ -134,6 +134,6 @@ repos:
     - --gitignore-root
     - --no-cache
     - --no-must-find-files
-    exclude: ^(LICENSE-|tests/config/cspell.json|tests/config/dfd-wordlist|tests/config/words-.*.txt$) # yamllint disable-line
+    exclude: ^(LICENSE-|tests/config/cspell.json$) # yamllint disable-line
 # yamllint enable rule:key-ordering
 ...
