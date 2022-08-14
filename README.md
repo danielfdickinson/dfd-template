@@ -125,7 +125,7 @@ and myself (I've modified them) and are licensed under the MIT license (above).
 
 ### Acknowledgements
 
-Thank you to @davidsneighbor for introducing me to
+Thank you to @davidsneighbour for introducing me to
 [pre-commit](https://pre-commit.com).
 
 -------
