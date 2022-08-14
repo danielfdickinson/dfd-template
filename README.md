@@ -1,6 +1,6 @@
-# @@TITLE@@
+# DFD template
 
-@@DESCRIPTION@@
+Daniel's main template with pre-commit hooks from <https://pre-commit.com>.
 
 ## Status
 
@@ -9,7 +9,7 @@ status](https://results.pre-commit.ci/badge/github/danielfdickinson/dfd-template
 
 ## Repository URL
 
-<@@URL@@>
+<https://github.com/danielfdickinson/dfd-template>
 
 ## Features and default configuration
 
