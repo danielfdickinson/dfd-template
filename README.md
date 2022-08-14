@@ -100,13 +100,23 @@ expressions (python3 regex).
 And notice that many mistakes are flagged and need to be fixed before
 you are able to commit. This helps keep things in great shape.
 
---------
+## Copyright and licensing
 
 Copyright © 2022 Daniel F. Dickinson
 
-Except where otherwise noted, this repository is licensed under the Creative
-Commons Attribution Share-Alike 4.0 International license.
+### Textual content
 
-See [LICENSE](LICENSE) in this repository.
+Except where otherwise noted, textual components in this repository are licensed
+under the Creative Commons Attribution Share-Alike 4.0 International license.
+
+See [LICENSE](LICENSE) in this repository for that license.
+
+### Code and configuration
+
+Except where otherwise noted, and where applicable, code and configurations in
+this repository are licensed under an MIT license.
+
+See [LICENSE-CODE-AND-CONFIGS](LICENSE-CODE-AND-CONFIGS) in this repository for
+that license.
 
 [tabaccess]: https://www.brycewray.com/posts/2022/06/accessibility-argument-tabs-spaces/
