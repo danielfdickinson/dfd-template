@@ -29,9 +29,9 @@ all), but can be overridden.
 to a commit succeeding.
 * For this repository we also apply the pre-commit as part of the CI pipeline
 to ensure users have actually used pre-commit locally.
-* Hooks we use (by purpose not name; for the name refer to
-[the pre-commit config](.pre-commit-config.yaml) in this repo. This are
-configured to (at the least) to be skipped for certain files or regular
+* Hooks we use (by purpose, not name; for the name refer to
+[the pre-commit config](.pre-commit-config.yaml) in this repo). This are
+configured (at the least) to be skipped for certain files or regular
 expressions (python3 regex).
 	* Prevent large files from being committed
 	* Prevent case-only differences in filenames
