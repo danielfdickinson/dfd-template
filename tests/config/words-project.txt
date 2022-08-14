@@ -1,3 +1,13 @@
+HEREDOCS
 Kollitsch
+autofix
+autoupdate
+badcommand
 brycewray
+csslint
 davidsneighbour
+gitleaks
+gitlint
+linebreak
+markdownlint
+parseable
