@@ -27,7 +27,7 @@ TBD
 
 ### Make changes as you wish
 
-And notice that many of mistakes are flagged and need to be fixed before
+And notice that many mistakes are flagged and need to be fixed before
 you are able to commit. This helps keep things in great shape.
 
 --------
