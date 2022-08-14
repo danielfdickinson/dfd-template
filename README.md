@@ -4,7 +4,8 @@
 
 ## Status
 
-TBD
+[![pre-commit.ci
+status](https://results.pre-commit.ci/badge/github/danielfdickinson/dfd-template/main.svg)](https://results.pre-commit.ci/latest/github/danielfdickinson/dfd-template/main)
 
 ## Repository URL
 
