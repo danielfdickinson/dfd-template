@@ -7,7 +7,7 @@ configurations I have gleefully extended (for example adding
 [CSpell][cspell] for spell checking).
 * '@brycewray' for writing an excellent [article on the accessibility argument
 for tabs vs spaces in code][tabaccess]. Hopefully I haven't taken that _too_
-far (_[Note 1](../README.md#note-1)_).
+far (_[Note 1](README-NOTES.md#note-1)_).
 
 --------
 

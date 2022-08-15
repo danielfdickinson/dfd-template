@@ -2,7 +2,7 @@
 
 ## Note 1
 
-Uses [EditorConfig](edconf) for an editor neutral default styling
+Uses [EditorConfig][edconf] for an editor neutral default styling
 
 * Defaults to [using tabs where possible for accessibility
 reasons][tabaccess]
@@ -38,5 +38,6 @@ lists I use with CSpell][dfdwordsdoc] has some info on [CSpell][cspell].
 [cspell]: https://cspell.org
 [dfdwordsdoc]: https://github.com/danielfdickinson/dfd-wordlists#readme
 [dnbprecommit]: https://kollitsch.dev/blog/2022/simple-multi-language-pre-commit-hooks/
+[edconf]: https://editorconfig.org/
 [precommit]: https://pre-commit.com
 [tabaccess]: https://www.brycewray.com/posts/2022/06/accessibility-argument-tabs-spaces/
