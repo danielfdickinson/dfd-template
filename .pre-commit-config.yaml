@@ -74,13 +74,13 @@ repos:
     args: [--markdown-linebreak-ext=md]
 
 - repo: "https://github.com/pre-commit/mirrors-csslint"
-  rev: bd680e135364dd60657e61913ad8cdbb7cac9bfc
+  rev: v1.0.5
   # See https://github.com/CSSLint/csslint
   hooks:
   - id: csslint
 
 - repo: "https://github.com/pre-commit/mirrors-scss-lint"
-  rev: a1e830845a5c031d382ba4f8447454f0552d7756
+  rev: v0.59.0
   # See https://github.com/causes/scss-lint
   hooks:
   - id: scss-lint
