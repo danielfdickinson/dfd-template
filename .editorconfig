@@ -1,4 +1,5 @@
 # https://editorconfig.org/ for details
+# cspell:ignore badcommand
 
 # Users should set their preferred tab_width in their personal .editorconfig
 # otherwise it defeats the purpose of using tabs (choice of tab size appearance)
