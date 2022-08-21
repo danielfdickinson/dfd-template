@@ -22,7 +22,7 @@ repos:
   # - Prevent giant files from being committed.
   - id: check-case-conflict
   # - checks for files that would conflict in
-  #   case-insensitive filesystems.
+  #   case-insensitive filesystems. # cspell:disable-line
   - id: check-docstring-first
   # - checks a common error of defining a docstring after code.
   - id: check-executables-have-shebangs
@@ -58,8 +58,7 @@ repos:
   - id: forbid-new-submodules
   # - prevents addition of new git submodules.
   - id: mixed-line-ending
-    # replaces or checks mixed line ending.
-    args: [--fix=no]
+  # replaces or checks mixed line ending.
   - id: no-commit-to-branch # - don't commit to branch
     args:
     - --branch
@@ -120,6 +119,8 @@ repos:
   hooks:
   - id: editorconfig-checker
     alias: ec
+    args:
+    - -no-color
     exclude: ^(LICENSE-|package(-lock)?.json$)
 
 - repo: "https://github.com/streetsidesoftware/cspell-cli"
@@ -129,12 +130,12 @@ repos:
     args:
     - --config
     - tests/config/cspell.json
-    - --locale
-    - en-GB
     - --gitignore
     - --gitignore-root
     - --no-cache
     - --no-must-find-files
+    - --show-context
+    - --show-suggestions
     exclude: ^(LICENSE-|tests/config/cspell.json$) # yamllint disable-line
 # yamllint enable rule:key-ordering
 ...
