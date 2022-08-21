@@ -136,6 +136,7 @@ repos:
     - --no-must-find-files
     - --show-context
     - --show-suggestions
+    - --validate-directives
     exclude: ^(LICENSE-|tests/config/cspell.json$) # yamllint disable-line
 # yamllint enable rule:key-ordering
 ...
