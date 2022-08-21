@@ -22,7 +22,7 @@ repos:
   # - Prevent giant files from being committed.
   - id: check-case-conflict
   # - checks for files that would conflict in
-  #   case-insensitive filesystems. # cspell:disable-line
+  #   case-insensitive filesystems.
   - id: check-docstring-first
   # - checks a common error of defining a docstring after code.
   - id: check-executables-have-shebangs

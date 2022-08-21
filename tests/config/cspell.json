@@ -2,66 +2,59 @@
 	"$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
 	"allowCompoundWords": false,
 	"dictionaries": [
-		"dfd-words",
-		"tech-words",
 		"project-words",
-		"!dfd-words-fr",
-		"!project-fr-words"
+		"project-words-fr",
+		"hugo-words",
+		"tech-words",
+		"dfd-words",
+		"dfd-words-fr"
 	],
 	"dictionaryDefinitions": [
 		{
 			"addWords": true,
+			"language": "en,en-ca,en-gb",
 			"name": "project-words",
-			"path": "./words-project.txt"
+			"path": "./tests/config/words-project.txt"
 		},
 		{
 			"addWords": true,
-			"locale": "fr_CA",
+			"language": "fr,fr-ca,fr-90",
 			"name": "project-words-fr",
-			"path": "./words-fr-project.txt"
+			"path": "./tests/config/words-fr-project.txt"
 		},
 		{
 			"addWords": true,
+			"language": "en,en-ca,en-gb",
+			"languageId": "hugo",
+			"name": "hugo-words",
+			"path": "./tests/config/dfd-wordlists/words-hugo.txt"
+		},
+		{
+			"addWords": true,
+			"language": "en,en-ca,en-gb",
 			"name": "tech-words",
-			"path": "./dfd-wordlists/words-tech.txt"
+			"path": "./tests/config/dfd-wordlists/words-tech.txt"
 		},
 		{
 			"addWords": true,
+			"language": "en,en-ca,en-gb",
 			"name": "dfd-words",
-			"path": "./dfd-wordlists/words-dfd.txt"
+			"path": "./tests/config/dfd-wordlists/words-dfd.txt"
 		},
 		{
 			"addWords": true,
+			"language": "fr,fr-ca,fr-90",
 			"name": "dfd-words-fr",
-			"path": "../../words-fr-dfd.txt"
+			"path": "./tests/config/dfd-wordlists/words-fr-dfd.txt"
 		}
 	],
+	"globRoot": "../..",
 	"ignorePaths": [
 		"node_modules",
-		"**/tests/config/words-*.txt",
-		"**/tests/config/dfd-wordlists/**"
+		"./tests/config/cspell.json",
+		"./tests/config/words-*.txt",
+		"./tests/config/dfd-wordlists/**"
 	],
 	"ignoreWords": [],
-	"overrides": [
-		{
-			"dictionaries": [
-				"!dfd-words",
-				"!tech-words",
-				"!project-words",
-				"!!dfd-words-fr",
-				"!!project-words-fr"
-			],
-			"filename": "**/exampleSite/**/fr/**/*.md",
-			"language": "fr_CA"
-		},
-		{
-			"dictionaries": [
-				"!!dfd-words-fr",
-				"!!project-words-fr"
-			],
-			"filename": "**/{i18n/fr.toml,config.toml}",
-			"language": "*"
-		}
-	],
 	"version": "0.2"
 }
