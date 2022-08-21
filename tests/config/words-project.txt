@@ -1,4 +1,2 @@
 administrivia
-dfd
 edconf
-wordlists
