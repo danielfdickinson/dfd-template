@@ -2,6 +2,10 @@
 
 Daniel's main template with pre-commit hooks from [pre-commit.com][precommit]
 
+## ARCHIVED
+
+This module is no longer maintained (archived for historical purposes), and will not receive updates, even security updates.
+
 ## Metadata
 
 ### Status
